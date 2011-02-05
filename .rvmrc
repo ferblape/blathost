@@ -1,0 +1,2 @@
+rvm --create use 1.8.7@blathost > /dev/null
+rvm wrapper current textmate
