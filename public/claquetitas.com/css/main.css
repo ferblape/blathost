@@ -1,0 +1,49 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+  font-size: x-small;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5em;
+  text-align: center;
+  background: #333333;
+}
+
+a {
+  color: #617fc3;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #395490;
+}
+
+h1 {
+  font-family: Helvetica, Arial, Sans-Serif;
+  color:#CCCCCC;
+}
+
+/* 
+CONTAINER
+*/
+
+#container {
+  width:65em;
+  margin: 0 auto;
+  padding: 2em 5em;
+  background: #fff;
+}
+
+/* 
+HEADER
+*/
+
+#header {
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size:1.2em;
+  color:#fff;
+  margin: 5em auto 6em;
+  width: 28em;
+  padding: 0 0;
+}
+
