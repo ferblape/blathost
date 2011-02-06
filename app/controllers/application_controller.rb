@@ -8,6 +8,9 @@ class ApplicationController < ActionController::Base
   protected
 
   def set_site
+    if request.host =~ /^www\.(.*)$/
+      redirect_to 'http://' + $1 and return false
+    end
     unless CONFIGURED_SITES.include?(request.host)
       render_404 and return false
     else
