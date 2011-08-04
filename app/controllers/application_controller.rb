@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
-  CONFIGURED_SITES = %W{ mariaysasi.com ferroea.com claquetitas.com goldenratio.me }
+  CONFIGURED_SITES = %W{ mariaysasi.com ferroea.com claquetitas.com goldenratio.me ladespensademorille.es }
 
   before_filter :set_site
 
